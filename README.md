@@ -7,13 +7,14 @@
 ## ✨ 기획배경
 기부하고자 하는 의지를 가진 사람들은 많지만 기부에 대한 불신이나 활동을 하고싶어도 접근성이 낮아 기부나 봉사활동에 참여하기 어려운 현실을 확인하고 
 투명하고 신뢰되는 기부 및 봉사 참여 플랫폼을 만들어 보자는 의견을 모아 제작하게 되었습니다.
-
+![003](https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/8b47bde3-60ce-445d-b46a-a1c2885841e0)
 <br>
 
-<br>
-<img width="900"  src="https://github.com/SilverSharkDeveloper/floc/assets/129861299/969a15c3-0a65-4316-a9e3-95ae9cc20faa">
 
 
+## ✨ 서비스 소개
+
+![005](https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/96735508-12a8-4648-88be-522a5537717d)
 
 <br>
 
@@ -45,7 +46,7 @@
 2.기부와 봉사 투명성 강화: 기부금 사용 내역과 봉사 활동 결과를 투명하게 공개하여 참여자들이 자신의 기여가 어떤 영향을 미치는지 알 수 있도록 합니다.<br>
 3.사회적 홍보와 인센티브 제공: 참여자들의 기부와 봉사 활동을 사회적으로 인정하고 홍보하여 다른 사람들에게 영감을 줍니다. 또한, 기부와 봉사를 통해 얻는 인센티브나 혜택을 제공하여 참여를 유도합니다.<br>
 4.결론: 전국민 대상 기부 및 봉사 촉진과 독려 플랫폼은 사회적 참여와 협력을 강화하여 더 나은 사회를 구축하고자 하는 목표 아래 다양한 사람들이 더 쉽게 기부와 봉사에 참여하고 긍정적인 변화를 만들어내는 데 기여합니다.<br>
-
+![004](https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/bdbe42f0-3472-472c-ae74-fcdc228e428b)
 ## 개발 환경
 - python
 - Django
@@ -98,14 +99,13 @@
 
 ## ✨ 페이지흐름도
 
-
-<img width="1025" alt="페이지 흐름도" src="https://github.com/SilverSharkDeveloper/floc/assets/129861299/8c92068f-d831-4852-8243-8dee74706998">
+<img width="863" alt="페이지흐름도" src="https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/fbf631e7-54ff-4b46-b386-fb7e30eb6f7c">
 
 
 
 
 ## ✨ ERD
-<img width="1025"  src="https://github.com/SilverSharkDeveloper/floc/assets/129861299/46d863fa-c691-4b1b-9730-9630949db7b6">
+<img width="707" alt="erd" src="https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/0df3d337-985e-4327-b92f-8cd4fc1fe2a0">
 
 
 
