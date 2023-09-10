@@ -105,7 +105,7 @@
 
 
 ## ✨ ERD
-<img width="707" alt="erd" src="https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/0df3d337-985e-4327-b92f-8cd4fc1fe2a0">
+![기부앤테이크 erd drawio](https://github.com/SilverSharkDeveloper/DBMS-Study/assets/129861299/d38719e0-9967-4bec-8e87-57df25667c08)
 
 
 
