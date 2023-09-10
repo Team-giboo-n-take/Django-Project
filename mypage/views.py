@@ -1010,6 +1010,7 @@ class MypageNeulhajangWriteFormView(View):
         volunteer_end_date = request.POST.get("volunteer_end_date")
         volunteer_end_date = datetime.strptime(volunteer_end_date, "%Y-%m-%d").date()
 
+
         # 목표 행동자수
         participants_max = request.POST.get("participants_max")
 

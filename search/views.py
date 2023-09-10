@@ -19,6 +19,8 @@ from workspace.serializers import NeulhaerangSerializer, PagenatorSerializer, Ne
 # Create your views here.
 
 
+
+
 class SearchFormView(View):
     def get(self,request):
         return render(request, 'search/search-form.html')

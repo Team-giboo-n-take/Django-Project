@@ -16,6 +16,7 @@ from neulhajang.models import Neulhajang, NeulhajangInnerContent
 # Create your views here.
 
 
+
 class MainView(View):
     def get(self, request):
         total_donation = NeulhaerangDonation.objects.aggregate(total_donation = Sum('donation_amount')).get("total_donation")

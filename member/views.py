@@ -68,6 +68,7 @@ class LoginView(View):
 
         return redirect(go_to_prev)
 
+
 class GetMemberProfileAPIView(APIView):
     def get(self,request):
         member = Member.objects.filter(member_email=request.session.get("member_email")).values().first()

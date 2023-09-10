@@ -30,6 +30,7 @@ class NeulhaerangListView(View):
         return render(request, 'neulhaerang/list.html')
 
 
+
 class NeulhaerangAPIView(APIView):
     def get(self, request):
         page = int(request.GET.get("page"))
