@@ -21,4 +21,5 @@ media
 
 .idea/
 *.idea
-*.md
+
+README.md
