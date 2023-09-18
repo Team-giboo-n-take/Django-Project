@@ -31,6 +31,7 @@ from workspace.serializers import MemberSerializer, PagenatorSerializer, Neulhae
 
 
 
+
 #메인 뷰
 class AdminMainView(View):
     def get(self,request):

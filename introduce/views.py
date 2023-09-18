@@ -13,6 +13,7 @@ from neulhajang.models import Neulhajang, NeulhajangLike, NeulhajangAuthenticati
 from workspace.models import Period
 
 
+
 # Create your views here.
 class IntroduceAboutView(View):
     def get(self,request):

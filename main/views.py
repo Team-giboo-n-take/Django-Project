@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 from django.views import View
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+from requests import get
 from member.models import Member
 from neulhaerang.models import NeulhaerangDonation, Neulhaerang, NeulhaerangInnerContent, NeulhaerangTag
 from neulhaerang_review.models import NeulhaerangReview, ReviewInnerContent
@@ -14,6 +14,7 @@ from neulhajang.models import Neulhajang, NeulhajangInnerContent
 
 
 # Create your views here.
+
 
 
 class MainView(View):
@@ -29,7 +30,8 @@ class MainView(View):
         print(neulhajang)
         count= neulhajang.get("feed_sum")
 
-
+        ip = get('https://api.ipify.org').text
+        print('My public IP address is: {}'.format(ip))
 
         datas ={
             "count":format(count,","),

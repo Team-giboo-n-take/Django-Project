@@ -11,6 +11,7 @@ from workspace.serializers import NoticeSerializer, PagenatorSerializer
 # Create your views here.
 
 
+
 class NoticeListView(View):
     def get(self,request):
         type = request.GET.get("type")

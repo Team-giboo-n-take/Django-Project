@@ -12,6 +12,7 @@ from workspace.serializers import AlarmSerializer, PagenatorSerializer
 # Create your views here.
 
 
+
 class AlarmView(View):
     def get(fself,request):
         return render(request,'customer-center/alarm.html')
